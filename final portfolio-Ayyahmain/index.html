@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FavICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title> Portfolio Website - AyyahAlbeeju</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- After I have submet the button for the Theme Now the Profil Picture -->
+                            <img src="assets/img/profil.jpg">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Ayyah Albeeju</h2>
+                    <h3 class="profile__profession">Resident in General Surgery and Emergancy Department and  Computer Science Student</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/ayyah_al/?hl=en" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.facebook.com/aya.sama.7" target="_blank" class="profile__social-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                        <a href="https://github.com/Ayyah91/" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">3</h3>
+                        <p class="profile__info-description">
+                            months of <br> study ICS
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">4</h3>
+                        <p class="profile__info-description">
+                            Completed <br> projects
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">6</h3>
+                        <p class="profile__info-description">Still working in <br> projects</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <!-- Now the Button for my CV  -->
+                    <a download="" href="assets/pdf/Lebenslauf von Ayyah Albeeju CV.pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <!-- Thats for my contact ,1 whatsapp -->
+                        <a href="https://api.whatsapp.com/send?phone=+4917636989146&text=Hello, more information!" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- 2 massenger -->
+                        <a href="https://m.me/AyaAlbeeju" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--now the main element in the bage ,contain buttons and columns--> 
+        <main class="main">
+            <section class="filters container">
+                <!--=============== Filters  Tabs ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!-- Projectes-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- First I will make a variable for every picture to work in Css and make it cards -->
+                            <img src="assets/img/1.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Python</span>
+                                    <h3 class="projects__title">Rock Paper Scissors game</h3>
+                                    <a href="https://github.com/Ayyah91/RockPaperScissorsPython" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/4.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Portfolio website</h3>
+                                    <a href="#"  target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/2.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Python</span>
+                                    <h3 class="projects__title">Digital Clock</h3>
+                                    <a href="https://github.com/Ayyah91/Digital-Clock-py"  target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">css</span>
+                                    <h3 class="projects__title">Animation Effects</h3>
+                                    <a href="https://github.com/Ayyah91/website-animation-with-CSS" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/5.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Ongoing Projects</h3>
+                                    <a href="https://github.com/Ayyah91/in-completed-projectes" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Medical Skills</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Basic and Advanced Life Support</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Surgical Skills</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Labroscopic Surgical Skills</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Basic neonatal Life Support</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Basic and Advanced Burn Life Support</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">PSychological Evaluation</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Coumputer Skills </h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Microsoft Office </h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS& SCSS</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Javascript</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer -->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; AyyahAlbeeju. All rigths reserved
+            </span>
+        </footer>
+        <!--T_T I still need to make the contact section and About me also ,thats really hard Y_Y-->
+
+        <!--link to JS for Scrollreveal-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--link to JS file-->>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
